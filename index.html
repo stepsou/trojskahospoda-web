@@ -1,10 +1,282 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-  <meta charset="UTF-8">
-  <title>Trojská hospoda</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trojská hospoda</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+  --cherry:#A5283A;
+  --cream:#F7F1E8;
+  --text:#2D2D2D;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:var(--cream);
+  color:var(--text);
+  font-family:Inter,sans-serif;
+  line-height:1.6;
+}
+
+header{
+  padding:25px;
+  text-align:center;
+}
+
+nav{
+  display:flex;
+  justify-content:center;
+  gap:25px;
+  flex-wrap:wrap;
+  margin-bottom:30px;
+}
+
+nav a{
+  text-decoration:none;
+  color:var(--cherry);
+  font-weight:600;
+}
+
+.hero{
+  text-align:center;
+  padding:60px 20px;
+}
+
+.logo{
+  font-size:80px;
+  color:var(--cherry);
+}
+
+h1{
+  font-family:'Cormorant Garamond', serif;
+  font-size:4rem;
+  color:var(--cherry);
+}
+
+h2{
+  font-family:'Cormorant Garamond', serif;
+  font-size:2rem;
+  margin-bottom:20px;
+}
+
+.hero p{
+  max-width:700px;
+  margin:20px auto;
+}
+
+.buttons{
+  margin-top:30px;
+}
+
+.buttons a{
+  display:inline-block;
+  margin:10px;
+  padding:12px 22px;
+  background:var(--cherry);
+  color:white;
+  text-decoration:none;
+  border-radius:8px;
+}
+
+.section{
+  max-width:1100px;
+  margin:auto;
+  padding:80px 20px;
+}
+
+.features{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:20px;
+}
+
+.feature{
+  background:white;
+  padding:30px;
+  border-radius:12px;
+  text-align:center;
+}
+
+.feature h3{
+  color:var(--cherry);
+}
+
+.menu-preview{
+  background:white;
+  border-radius:12px;
+  padding:40px;
+  text-align:center;
+  margin-top:20px;
+}
+
+.contact{
+  background:white;
+  border-radius:12px;
+  padding:40px;
+}
+
+footer{
+  text-align:center;
+  background:var(--cherry);
+  color:white;
+  padding:30px;
+  margin-top:60px;
+}
+
+@media(max-width:768px){
+
+h1{
+  font-size:2.8rem;
+}
+
+.logo{
+  font-size:60px;
+}
+
+}
+
+</style>
 </head>
+
 <body>
-  <h1>TROJSKÁ HOSPODA</h1>
+
+<header>
+
+<nav>
+<a href="#home">Domů</a>
+<a href="#food">Jídelní lístek</a>
+<a href="#drinks">Nápojový lístek</a>
+<a href="#gallery">Galerie</a>
+<a href="#contact">Kontakt</a>
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<div class="logo">🐦</div>
+
+<h1>TROJSKÁ HOSPODA</h1>
+
+<h2>Klasická hospoda v Troji</h2>
+
+<p>
+Přijďte nás navštívit do nově otevřené Trojské hospody.
+Nabízíme dobře načepované pivo, domácí limonády,
+výběrovou kávu, snídaně i tradiční hospodské jídlo.
+</p>
+
+<div class="buttons">
+<a href="#food">Jídelní lístek</a>
+<a href="#drinks">Nápojový lístek</a>
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="features">
+
+<div class="feature">
+<h3>🍺 Pivo</h3>
+<p>Dobře načepované pivo.</p>
+</div>
+
+<div class="feature">
+<h3>☕ Káva & snídaně</h3>
+<p>Každý den od otevření.</p>
+</div>
+
+<div class="feature">
+<h3>🍽 Hospodské dobroty</h3>
+<p>Poctivá klasika.</p>
+</div>
+
+<div class="feature">
+<h3>🌿 Zahrádka</h3>
+<p>Posezení venku.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section" id="food">
+
+<h2>Jídelní lístek</h2>
+
+<div class="menu-preview">
+Zde později vložíme obrázek jídelního lístku.
+</div>
+
+</section>
+
+<section class="section" id="drinks">
+
+<h2>Nápojový lístek</h2>
+
+<div class="menu-preview">
+Zde později vložíme obrázek nápojového lístku.
+</div>
+
+</section>
+
+<section class="section" id="gallery">
+
+<h2>Galerie</h2>
+
+<div class="menu-preview">
+Fotografie budeme postupně doplňovat.<br><br>
+📸 @trojskahospoda
+</div>
+
+</section>
+
+<section class="section" id="contact">
+
+<h2>Kontakt</h2>
+
+<div class="contact">
+
+<p><strong>Adresa:</strong><br>
+Trojská 744/171A<br>
+Praha – Troja</p>
+
+<br>
+
+<p><strong>Telefon:</strong><br>
+720 582 149</p>
+
+<br>
+
+<p><strong>E-mail:</strong><br>
+trojskahospoda@gmail.com</p>
+
+<br>
+
+<p><strong>Otevírací doba:</strong><br>
+Úterý–Neděle 10:00–22:00</p>
+
+</div>
+
+</section>
+
+<footer>
+
+TROJSKÁ HOSPODA<br>
+Klasická hospoda v Troji
+
+</footer>
+
 </body>
 </html>
