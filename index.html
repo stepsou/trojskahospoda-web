@@ -160,6 +160,48 @@ h1{
 .menu-preview img:hover{
     transform:scale(1.02);
 }
+  .menus{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:35px;
+    margin-top:35px;
+}
+
+.menu-card{
+    background:white;
+    border-radius:18px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+}
+
+.menu-card h3{
+    color:var(--cherry);
+    margin-bottom:20px;
+    font-family:'Cormorant Garamond', serif;
+    font-size:2rem;
+}
+
+.menu-card img{
+    width:220px;
+    border-radius:10px;
+    box-shadow:0 8px 18px rgba(0,0,0,.15);
+    transition:0.3s;
+}
+
+.menu-card img:hover{
+    transform:scale(1.05);
+}
+
+.menu-card p{
+    margin-top:20px;
+}
+
+.menu-card p a{
+    color:var(--cherry);
+    font-weight:bold;
+    text-decoration:none;
+}
 </style>
 </head>
 
