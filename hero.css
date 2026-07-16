@@ -76,3 +76,66 @@
     right:-90px;
     top:70px;
 }
+/* ---------- IKONY ---------- */
+
+.hero-icons{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap:55px;
+    margin-top:70px;
+    flex-wrap:wrap;
+}
+
+.hero-icon{
+    width:140px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+}
+
+.hero-icon img{
+    width:72px;
+    height:auto;
+    margin-bottom:16px;
+    transition:.25s ease;
+}
+
+.hero-icon:hover img{
+    transform:translateY(-4px) scale(1.05);
+}
+
+.hero-icon span{
+    font-size:15px;
+    font-weight:700;
+    letter-spacing:1px;
+    line-height:1.4;
+    color:#2D2D2D;
+}
+/* ---------- TLAČÍTKA ---------- */
+
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:55px;
+    flex-wrap:wrap;
+}
+
+.hero-buttons a{
+    display:inline-block;
+    padding:16px 34px;
+    background:var(--cherry);
+    color:#fff;
+    text-decoration:none;
+    border-radius:999px;
+    font-weight:600;
+    transition:.25s ease;
+    box-shadow:0 10px 25px rgba(165,40,58,.18);
+}
+
+.hero-buttons a:hover{
+    background:#8f2232;
+    transform:translateY(-3px);
+}
