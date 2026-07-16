@@ -1,1 +1,78 @@
-/* Hero styles */
+/* ---------- HERO ---------- */
+
+.hero{
+    background: var(--cream);
+    padding: 40px 40px 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-wrapper{
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hero-top{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:80px;
+}
+
+.hero-left{
+    flex:1;
+    text-align:center;
+}
+
+.hero-right{
+    width:300px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+}
+
+.hero-logo{
+    width:270px;
+    display:block;
+    margin:0 auto 25px;
+}
+
+.hero h1{
+    font-family:'Cormorant Garamond',serif;
+    font-size:72px;
+    line-height:1;
+    color:var(--cherry);
+    margin-bottom:30px;
+}
+
+.hero-text{
+    max-width:620px;
+    margin:0 auto;
+    font-size:22px;
+    line-height:1.8;
+}
+
+.opening-badge{
+    width:250px;
+    height:auto;
+}
+/* ---------- ORNAMENTY ---------- */
+
+.ornament-left,
+.ornament-right{
+    position:absolute;
+    width:220px;
+    opacity:.9;
+    pointer-events:none;
+}
+
+.ornament-left{
+    left:-90px;
+    top:70px;
+}
+
+.ornament-right{
+    right:-90px;
+    top:70px;
+}
