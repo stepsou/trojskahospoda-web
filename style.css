@@ -303,3 +303,22 @@ h1{
 .buttons a:hover{
     background:#7f1f2f;
 }
+/* ===== ORNAMENTY HERO ===== */
+
+.ornament-left{
+    position:absolute;
+    left:-140px;
+    top:40px;
+    width:260px;
+    z-index:1;
+    pointer-events:none;
+}
+
+.ornament-right{
+    position:absolute;
+    right:-140px;
+    top:40px;
+    width:260px;
+    z-index:1;
+    pointer-events:none;
+}
