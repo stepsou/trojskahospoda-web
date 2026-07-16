@@ -309,25 +309,22 @@ h1{
 
 .ornament-left{
     position:absolute;
-    left:-140px;
-    top:40px;
-    width:260px;
-    z-index:1;
-    pointer-events:none;
+    left:20px;
+    top:120px;
+    width:150px;
+    opacity:.9;
 }
 
 .ornament-right{
     position:absolute;
-    right:-140px;
-    top:40px;
-    width:260px;
-    z-index:1;
-    pointer-events:none;
+    right:20px;
+    top:120px;
+    width:150px;
+    opacity:.9;
 }
 .opening-badge{
     position:absolute;
     right:40px;
-    top:80px;
-    width:160px;
-    z-index:3;
+    top:20px;
+    width:110px;
 }
