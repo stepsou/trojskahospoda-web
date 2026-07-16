@@ -13,25 +13,6 @@
     position: relative;
 }
 
-.hero-top{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    gap:80px;
-}
-
-.hero-left{
-    flex:0 0 720px;
-    text-align:center;
-}
-
-.hero-right{
-    width:300px;
-    display:flex;
-    justify-content:center;
-    align-items:flex-start;
-}
-
 .hero-logo{
     width:340px;
     display:block;
@@ -39,23 +20,40 @@
 }
 
 .hero h1{
-    font-family:'Cormorant Garamond',serif;
+    font-family:'Cormorant Garamond', serif;
     font-size:72px;
     line-height:1;
     color:var(--cherry);
-    margin-bottom:18px;
+    text-align:center;
+    margin-bottom:45px;
+}
+
+.hero-top{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:90px;
+}
+
+.hero-left{
+    width:620px;
 }
 
 .hero-text{
-    max-width:620px;
-    margin:0;
     font-size:22px;
     line-height:1.8;
     text-align:left;
 }
 
+.hero-right{
+    width:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
 .opening-badge{
-    width:250px;
+    width:290px;
     height:auto;
 }
 /* ---------- ORNAMENTY ---------- */
