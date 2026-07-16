@@ -215,3 +215,91 @@ h1{
     color:var(--cherry);
     font-weight:bold;
     text-decoration:none;
+
+  /* ==========================================
+   HERO
+========================================== */
+
+.hero{
+    background:#F7F1E8;
+    padding:70px 30px 90px;
+}
+
+.hero-content{
+    max-width:1100px;
+    margin:0 auto;
+    text-align:center;
+    position:relative;
+}
+
+.hero-logo{
+    width:220px;
+    max-width:90%;
+    display:block;
+    margin:0 auto 25px;
+}
+
+.hero h1{
+    font-family:'Cormorant Garamond', serif;
+    font-size:78px;
+    line-height:1;
+    color:#A5283A;
+    margin-bottom:25px;
+}
+
+.hero-text{
+    max-width:760px;
+    margin:0 auto;
+    font-size:24px;
+    line-height:1.8;
+    color:#333;
+}
+
+.hero-services{
+    display:flex;
+    justify-content:center;
+    gap:55px;
+    flex-wrap:wrap;
+    margin:55px 0;
+}
+
+.service{
+    width:120px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.service{
+    font-size:42px;
+}
+
+.service span{
+    margin-top:12px;
+    font-size:16px;
+    font-weight:700;
+    color:#A5283A;
+    text-transform:uppercase;
+    line-height:1.4;
+}
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.buttons a{
+    background:#A5283A;
+    color:white;
+    padding:16px 34px;
+    border-radius:40px;
+    text-decoration:none;
+    font-weight:700;
+    transition:.25s;
+}
+
+.buttons a:hover{
+    background:#7f1f2f;
+}
