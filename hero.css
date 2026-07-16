@@ -138,17 +138,3 @@
     background:#8f2232;
     transform:translateY(-3px);
 }
-.hero-icon img{
-    width:80px !important;
-    max-width:80px !important;
-    height:auto !important;
-    display:block;
-}
-
-.hero-icons{
-    display:flex !important;
-    justify-content:center;
-    align-items:flex-start;
-    gap:50px;
-    flex-wrap:wrap;
-}
