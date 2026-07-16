@@ -55,7 +55,9 @@ nav a:hover{
 
 .hero-content{
     max-width:1200px;
+    min-height:650px;
     margin:0 auto;
+    text-align:center;
     position:relative;
 }
   
