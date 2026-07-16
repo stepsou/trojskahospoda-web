@@ -230,3 +230,33 @@ h1{
     display:block;
     margin:0 auto 25px auto;
 }
+.hero-content{
+    position:relative;
+}
+
+.opening-badge{
+    position:absolute;
+    top:20px;
+    right:0;
+    width:110px;
+    height:110px;
+    background:#A5283A;
+    color:white;
+    border-radius:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-family:'Cormorant Garamond', serif;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.opening-badge span{
+    font-size:18px;
+    letter-spacing:2px;
+}
+
+.opening-badge strong{
+    font-size:30px;
+    line-height:1;
+}
