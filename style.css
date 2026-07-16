@@ -322,3 +322,10 @@ h1{
     z-index:1;
     pointer-events:none;
 }
+.opening-badge{
+    position:absolute;
+    right:40px;
+    top:80px;
+    width:160px;
+    z-index:3;
+}
