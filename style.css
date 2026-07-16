@@ -309,18 +309,16 @@ h1{
 
 .ornament-left{
     position:absolute;
-    left:20px;
-    top:120px;
-    width:150px;
-    opacity:.9;
+    left:0;
+    top:140px;
+    width:220px;
 }
 
 .ornament-right{
     position:absolute;
-    right:20px;
-    top:120px;
-    width:150px;
-    opacity:.9;
+    right:0;
+    top:140px;
+    width:220px;
 }
 .opening-badge{
     position:absolute;
