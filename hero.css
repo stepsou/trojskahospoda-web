@@ -21,7 +21,7 @@
 }
 
 .hero-left{
-    flex:1;
+    flex:0 0 720px;
     text-align:center;
     padding-left:80px;
 }
