@@ -96,10 +96,10 @@
 }
 
 .hero-icon img{
-    width:72px;
+    width:120px;
+    max-width:120px;
     height:auto;
-    margin-bottom:16px;
-    transition:.25s ease;
+    display:block;
 }
 
 .hero-icon:hover img{
