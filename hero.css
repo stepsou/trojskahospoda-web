@@ -21,12 +21,14 @@
 }
 
 .hero h1{
-    font-family:'Forum', serif;
-    font-size:78px;
-    font-weight:400;
-    line-height:1.05;
+    font-family:'Cinzel', serif;
+    font-size:68px;
+    font-weight:700;
+    line-height:1.1;
+    letter-spacing:3px;
     color:var(--cherry);
     text-align:center;
+    text-transform:uppercase;
     margin-bottom:20px;
 }
 .hero-top{
