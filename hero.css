@@ -73,12 +73,12 @@
 
 .ornament-left{
     left:-90px;
-    top:20px;
+    top:-20px;
 }
 
 .ornament-right{
     right:-90px;
-    top:20px;
+    top:-20px;
 }
 /* ---------- IKONY ---------- */
 
