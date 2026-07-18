@@ -14,7 +14,7 @@
 }
 
 .hero-logo{
-    width:520px;
+    width:580px;
     max-width:90%;
     display:block;
     margin:0 auto 5px;
@@ -32,8 +32,9 @@
 .hero-top{
     display:flex;
     justify-content:center;
-    align-items:center;
-    gap:60px;
+    align-items:flex-start;
+    gap:0;
+    position:relative;
 }
 
 .hero-left{
@@ -47,10 +48,11 @@
 }
 
 .hero-right{
-    width:300px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    position:absolute;
+    top:-110px;
+    right:180px;
+    width:auto;
+    z-index:5;
 }
 
 .opening-badge{
