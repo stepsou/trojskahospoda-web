@@ -33,11 +33,11 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    gap:90px;
+    gap:60px;
 }
 
 .hero-left{
-    width:620px;
+    width:560px;
 }
 
 .hero-text{
@@ -96,8 +96,8 @@
 }
 
 .hero-icon img{
-    width:120px;
-    max-width:120px;
+    width:135px;
+    max-width:135px;
     height:auto;
     display:block;
 }
