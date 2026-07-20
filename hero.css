@@ -77,7 +77,7 @@
 }
 .ornament-right{
     position:absolute;
-    width:490px;
+    width:480px;
     opacity:0.95;
     pointer-events:none;
     z-index:1;
