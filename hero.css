@@ -66,10 +66,16 @@
 }
 /* ---------- ORNAMENTY ---------- */
 
-.ornament-left,
-.ornament-right{
+.ornament-left{
     position:absolute;
     width:500px;
+    opacity:0.95;
+    pointer-events:none;
+    z-index:1;
+}
+.ornament-right{
+    position:absolute;
+    width:450px;
     opacity:0.95;
     pointer-events:none;
     z-index:1;
