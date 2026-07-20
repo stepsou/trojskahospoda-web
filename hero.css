@@ -47,9 +47,11 @@
 }
 
 .hero-text{
-    font-size:22px;
-    line-height:1.8;
+    font-family:'Inter', sans-serif;
+    font-size:18px;
+    line-height:1.55;
     text-align:left;
+    color:#2D2D2D;
 }
 
 .hero-right{
