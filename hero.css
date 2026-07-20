@@ -65,23 +65,23 @@
 }
 /* ---------- ORNAMENTY ---------- */
 
-.hero-layout{
-    display:grid;
-    grid-template-columns:240px 1fr 240px;
-    align-items:start;
-    gap:30px;
-}
-
-.hero-side{
-    display:flex;
-    justify-content:center;
-    align-items:flex-start;
-}
-
 .ornament-left,
 .ornament-right{
-    width:260px;
-    height:auto;
+    position:absolute;
+    width:390px;
+    opacity:0.95;
+    pointer-events:none;
+    z-index:1;
+}
+
+.ornament-left{
+    left:-140px;
+    top:-40px;
+}
+
+.ornament-right{
+    right:-140px;
+    top:-40px;
 }
 
 /* ---------- IKONY ---------- */
