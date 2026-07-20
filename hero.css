@@ -53,6 +53,13 @@
     text-align:left;
     color:#2D2D2D;
 }
+.hero-text p{
+    margin:0 0 10px;
+}
+
+.hero-text p:last-child{
+    margin-bottom:0;
+}
 
 .hero-right{
     position:absolute;
