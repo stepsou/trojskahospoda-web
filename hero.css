@@ -47,11 +47,10 @@
 }
 
 .hero-text{
-    max-width:560px;
-    text-align:center;
     font-family:'Inter', sans-serif;
     font-size:18px;
-    line-height:1.7;
+    line-height:1.6;
+    text-align:left;
     color:#2D2D2D;
 }
 .hero-text p{
@@ -165,7 +164,7 @@
     transform:translateY(-3px);
 }
 .hero-text-box{
-    display:inline-block;
+    max-width:650px;
     margin:25px auto 0;
     padding:28px 40px;
 
@@ -175,9 +174,4 @@
     background:rgba(255,255,255,.28);
 
     box-shadow:0 8px 20px rgba(0,0,0,.05);
-}
-.hero-left{
-    width:100%;
-    display:flex;
-    justify-content:center;
 }
