@@ -67,19 +67,20 @@
 .ornament-left,
 .ornament-right{
     position:absolute;
-    width:320px;
-    opacity:.95;
+    width:390px;
+    opacity:0.95;
     pointer-events:none;
+    z-index:1;
 }
 
 .ornament-left{
-    left:-90px;
-    top:-20px;
+    left:-140px;
+    top:-40px;
 }
 
 .ornament-right{
-    right:-90px;
-    top:-20px;
+    right:-140px;
+    top:-40px;
 }
 /* ---------- IKONY ---------- */
 
