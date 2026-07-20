@@ -49,6 +49,21 @@ nav a{
 nav a:hover{
     color:#A5283A;
 }
+nav a.active{
+    color:#A5283A;
+}
+
+nav a.active::after{
+    content:"";
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    bottom:-8px;
+    width:26px;
+    height:2px;
+    background:#A5283A;
+    border-radius:2px;
+}
 
 .hero{
     background:#F7F1E8;
