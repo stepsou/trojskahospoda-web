@@ -68,19 +68,19 @@
 .ornament-left,
 .ornament-right{
     position:absolute;
-    width:390px;
+    width:500px;
     opacity:0.95;
     pointer-events:none;
     z-index:1;
 }
 
 .ornament-left{
-    left:-140px;
+    left:-30px;
     top:-40px;
 }
 
 .ornament-right{
-    right:-140px;
+    right:-30px;
     top:-40px;
 }
 
