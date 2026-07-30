@@ -235,5 +235,23 @@ h1{
     font-weight:bold;
     text-decoration:none;
 }
+@media (max-width: 768px){
 
+nav{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+
+    gap:18px;
+
+    padding:16px 12px;
+}
+
+nav a{
+    font-size:16px;
+    letter-spacing:0.5px;
+    padding:4px 0;
+}
+}
  
