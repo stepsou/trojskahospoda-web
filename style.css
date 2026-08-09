@@ -277,4 +277,30 @@ nav a{
 .gallery img:hover{
     transform:scale(1.03);
 }
+/* ---------- JAZYK ---------- */
+
+.language-switch{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    margin-left:25px;
+}
+
+.language-switch button{
+    border:none;
+    background:none;
+    padding:0;
+    font-family:'Inter', sans-serif;
+    font-size:16px;
+    color:#2D2D2D;
+    cursor:pointer;
+}
+
+.language-switch span{
+    color:#A5283A;
+}
+
+.language-switch button:hover{
+    color:#A5283A;
+}
  
